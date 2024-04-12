@@ -1,0 +1,101 @@
+@font-face {
+     font-family: 'tiltortion' ;
+     src: url('Tiltortion.woff');
+}
+@font-face {
+    font-family: 'tiny' ;
+    src: url('TINY5x3-100.woff');
+}
+@font-face {
+    font-family: 'tinyheavy' ;
+    src: url('TINY5x3-300.woff');
+}
+@font-face {
+    font-family: 'tinylight' ;
+    src: url('TINY5x3-60.woff');
+}
+
+
+body{
+background-color: darkblue;
+}
+
+div.header1 {
+    width: auto;
+    color: deeppink;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'tiltortion';
+
+}
+
+div.header2 {
+    width: auto;
+    font-weight: bold;
+    color: deeppink;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'tiltortion';
+
+}
+
+div.header3 {
+    width: auto;
+    color: deeppink;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'tiltortion';
+
+}
+
+div.supporttext {
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'tiny';
+    border: 5px solid deeppink
+}
+
+div.supporttext.one {
+    color: forestgreen;
+}
+
+div.supporttext.two {
+    color: brown;
+    
+}
+
+div.supporttext.three {
+    color: 0c3388;
+}
+
+div.supporttext.a {
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
+    background-color: grey;
+    
+}
+
+div.supporttext.b {
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: deeppink;
+  
+}
+div.supporttext.c {
+    text-align: right;
+    background-color: yellow;
+}
+div.supporttext.x {
+    font-size: 50px;
+}
+div.supporttext.y {
+    font-size: 100px;
+}
+div.supporttext.z {
+    font-family: 'tinylight';
+}
+
