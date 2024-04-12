@@ -1,0 +1,76 @@
+body {
+    background-color: darkblue;
+    background-image: url('figure.png'), url('background.png');
+    background-repeat: no-repeat,repeat;
+    background-size: 600px,150px;
+    background-position: center bottom, center top;
+    background-attachment: scroll;
+    width: 100%;
+}
+
+img {
+     width: 100%;
+}
+
+div.random {
+    transition: 0.5s;
+}
+
+div.face {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+div.face.a {
+    background-image: url(face1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+div.face.b {
+    background-image: url(face2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+div.face.c {
+    background-image: url(face3.png);
+    background-position: center;
+    background-size: cover;
+}
+div.face.x {
+    background-image: url(face4.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+div.face.y {
+    background-image: url(face5.png);
+    background-position: center;
+    background-size: cover;
+
+}
+div.face.z {
+    background-image: url(face6.png);
+    background-position: center;
+    background-size: cover;
+}
+div.face.one {
+    background-image: url(face7.png);
+    background-position: center;
+    background-size: cover;
+}
+div.face.two {
+    background-image: url(face8.png);
+    background-position: center;
+    background-size: cover;
+}
+div.face.three {
+    background-image: url(face9.png);
+    background-position: center;
+    background-size: cover;
+}
